@@ -1,4 +1,6 @@
 import { createApp } from 'vue';
-import Layout from './Layout.vue';
+
+import './styles/main.scss';
+import Layout from './components/Layout.vue';
 
 createApp(Layout).mount('#app');
