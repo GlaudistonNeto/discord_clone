@@ -11,6 +11,7 @@
 
 <script>
 import Hashtag from "vue-material-design-icons/Pound";
+
 export default {
   components: {
     Hashtag
