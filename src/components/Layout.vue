@@ -2,9 +2,10 @@
   <div id="grid">
     <ServerList />
     <ServerName />
-    <ChannelInfo />
     <ChannelList />
     <UserInfo />
+    <ChannelInfo />
+    <ChannelData />
     <UserList />
   </div>
 </template>
@@ -12,9 +13,10 @@
 <script>
 import ServerList from "./ServerList";
 import ServerName from "./ServerName";
-import ChannelInfo from "./ChannelInfo";
 import ChannelList from "./ChannelList";
 import UserInfo from "./UserInfo";
+import ChannelInfo from "./ChannelInfo";
+import ChannelData from './ChannelData'
 import UserList from "./UserList";
 
 export default {
@@ -22,8 +24,9 @@ export default {
     ServerList,
     ServerName,
     ChannelInfo,
-    ChannelList,
     UserInfo,
+    ChannelList,
+    ChannelData,
     UserList
   }
 };

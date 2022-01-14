@@ -3,7 +3,7 @@
     <div class="icon">
       <Hashtag :size="24" />
     </div>
-    <h1 class="title">free-chat</h1>
+    <h1 class="title">live-chat</h1>
     <div class="separator"></div>
     <div class="description">Open channel for conversations</div>
   </div>

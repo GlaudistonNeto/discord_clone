@@ -21,7 +21,6 @@
 </template>
 
 <script>
-import Vue from "vue";
 import ChannelMessage from "./ChannelMessage";
 import At from "vue-material-design-icons/At";
 import randomName from "../../data/names";
@@ -37,9 +36,6 @@ export default {
     }
   }
 };
-Vue.component("Mention", {
-  template: '<span class="mention"><slot /></span>'
-});
 </script>
 
 <style lang="scss" scoped>

@@ -1,7 +1,7 @@
 <template>
   <div class="userlist">
     <div class="role">Disponível - 1</div>
-    <UserRow nickname="Maikel Neris" />
+    <UserRow nickname="John Doe" />
     <div class="role">Offline - 18</div>
     <UserRow nickname="Joaquim Oliveira" isBot />
     <UserRow :nickname="generateName()" v-for="users in 24" :key="users.id" />

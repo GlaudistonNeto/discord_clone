@@ -6,7 +6,7 @@
         <AddCategoryIcon :size="21" />
       </div>
     </div>
-    <ChannelButton selected channelName="free-chat" />
+    <ChannelButton selected channelName="live-chat" />
     <ChannelButton channelName="vue-js" />
     <ChannelButton channelName="games" />
     <ChannelButton channelName="csgo" />
